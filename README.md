@@ -19,3 +19,17 @@ ordered list pada Section unorder-list, seperti berikut ini :
 
 ![Gambar 3](img/ss3.png)
 
+Tampilan di Website akan seperti ini :
+
+![Gambar 4](img/ss4.png)
+
+### Description List 
+
+Untuk menambahkan Description List yaitu dengan Kode tag `<dl>`, Contohnya seperti gambar dibawah ini :
+
+![Gambar 5](img/ss5.png)
+
+dan untuk tampilan Website nya jadi seperti ini :
+
+![Gambar 6](img/ss6.png)
+
