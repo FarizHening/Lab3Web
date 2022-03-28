@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="nim">NIM</label>
+                <input type="text" id="nim" name="nim">
+            </p>
+            <p>
+                <label>Tanggal Lahir</label>
+                <input type="date" name="tanggal"/>
+            </p>
+            <p>
+                <label for="fakultas">Fakultas</label>
+                <select name="fakultas">
+                    <option value="" selected="selected">--Pilih Fakultas--</option>
+                    <option value="teknik">Teknik</option>
+                    <option value="ekonomidanbisnis">Ekonomi dan Bisnis</option>
+                </select>
+            </p>
+            <p>
+                <label for="prodi">Prodi</label>
+                <select name="prodi">
+                    <option value="" selected="selected">--Pilih Prodi--</option>
+                    <option value="teknikinformatika">Teknik Informatika</option>
+                    <option value="teknikindustri">Teknik Industri</option>
+                    <option value="tekniklingkungan">Teknik Lingkungan</option>
+                    <option value="akuntansi">Akuntansi</option>
+                    <option value="manajemen">Manajemen</option>
+                    <option value="bisnisdigital">Bisnis Digital</option>
+                </select>
+            </p>
+            <p>Semester</p>
+                <select name="program" size="5">
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                    <option value="5">Semester 5</option>
+                    <option value="6">Semester 6</option>
+                    <option value="7">Semester 7</option>
+                    <option value="8">Semester 8</option>
+                </select>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-laki</label>
+                <input id="jk_P" type="radio" name="kelamin" value="P" /><label for="jk_p">Perempuan</label>
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+    <style>
+        form p > label {
+            display: inline-block;
+            width: 100px;
+        }
+        form input[type="text"], form textarea{
+            border: 1px solid #197a43;
+        }
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+</body>
+</html>
