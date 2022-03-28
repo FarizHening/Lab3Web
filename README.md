@@ -64,4 +64,24 @@ Tampilan Website nya seperti ini :
 
 ![Gambar 10](img/ss10.png)
 
+### Membuat Form 
 
+Membuat form sederhana dengan contoh codingan seperti gambar dibawah ini :
+
+![Gambar 11](img/ss11.png)
+
+Tampilan di Website akan seperti ini :
+
+![Gambar 12](img/ss12.png)
+
+Kemudian tambahkan CSS agar tampilan form lebih menarik. Seperti ini :
+
+![Gambar 13](img/ss13.png)
+
+Maka di Website akan jadi seperti ini :
+
+![Gambar 14](img/ss14.png)
+
+Menarik bukaann ....
+
+Terima Kasih
